@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: harness-java-app
+  namespace: harness-lab
   labels:
     app: harness-java-app
 spec:
